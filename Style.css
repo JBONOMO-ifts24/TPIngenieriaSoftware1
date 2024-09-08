@@ -1,0 +1,63 @@
+/* Estilos del formulario */
+body,
+html {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/* Estilo general para el cuerpo */
+main {
+    margin: 5%; */
+}
+
+/* Encabezado */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Botones */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover,
+.boton:focus {
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+    outline: none;
+}
+
+/* Divs con h3 */
+div {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 25px 25px 35px 25px;
+}
